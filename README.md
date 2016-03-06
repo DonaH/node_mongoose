@@ -13,14 +13,14 @@
   npm init
   touch server.js
   ```
-- This will generate the ***package.json*** file and all files in the ***node_modules*** folder
+- ```npm init``` will generate the ***package.json*** file
 
 - Install necessary packages:
 
   ```
   npm install --save express mongoose body-parser morgan
   ```
-- This will generate the dependencies in your *package.json* file
+- ```npm install``` will modify the dependencies in your *package.json* file and generate all files in the ***node_modules*** folder
 
 - Download the server.js file which includes the routes for albums, songs, and artists.
 
