@@ -54,9 +54,13 @@
 
 - Then use the mongodb commands to see your albums and artists like this:
  
-- ```db.albums.find().pretty()```
+	```
+	db.albums.find().pretty()
+	```
 
-- ```db.artists.find().pretty()``` 
+	```
+	db.artists.find().pretty()
+	``` 
 
 ### Good luck & Happy coding!
 
